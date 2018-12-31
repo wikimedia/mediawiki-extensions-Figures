@@ -6,6 +6,7 @@
 		"WikiWorks"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:Figures",
+	"descriptionmsg": "figures-desc",
 	"license-name": "MIT",
 	"type": "other",
 	"AutoloadClasses": {
@@ -16,8 +17,13 @@
 			"Figures::onParserSetup"
 		]
 	},
+	"MessagesDirs": {
+		"Figures": [
+			"i18n"
+		]
+	},
 	"ExtensionMessagesFiles": {
-		"Figures": "Figures.i18n.magic.php"
+		"FiguresMagic": "Figures.i18n.magic.php"
 	},
 	"manifest_version": 1
 }
