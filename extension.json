@@ -13,9 +13,7 @@
 		"Figures": "Figures.php"
 	},
 	"Hooks": {
-		"ParserFirstCallInit": [
-			"Figures::onParserSetup"
-		]
+		"ParserFirstCallInit": "Figures::onParserSetup"
 	},
 	"MessagesDirs": {
 		"Figures": [
