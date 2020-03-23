@@ -1,13 +1,13 @@
 <?php
 /**
-* @file
-* @ingroup DocBookExport
-*/
+ * @file
+ * @ingroup DocBookExport
+ */
 
-$magicWords = array();
+$magicWords = [];
 
 /** English (English) */
-$magicWords['en'] = array(
-	'figure' => array( 0, 'figure' ),
-	'xref' => array( 0, 'xref' )
-);
+$magicWords['en'] = [
+	'figure' => [ 0, 'figure' ],
+	'xref' => [ 0, 'xref' ]
+];
