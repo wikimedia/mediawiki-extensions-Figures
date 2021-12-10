@@ -9,6 +9,9 @@
 	"descriptionmsg": "figures-desc",
 	"license-name": "MIT",
 	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
 	"AutoloadClasses": {
 		"Figures": "Figures.php"
 	},
@@ -23,5 +26,5 @@
 	"ExtensionMessagesFiles": {
 		"FiguresMagic": "Figures.i18n.magic.php"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
